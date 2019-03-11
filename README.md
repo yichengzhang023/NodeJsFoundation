@@ -18,4 +18,7 @@
 <br>Define the customized styles for the terminal display.
 ><code>npm install nodemon -g</code>
 
-<p>Nodemon can display changes when the file was saved.
+**Nodemon** can display changes when the file was saved.
+---
+##Section 4 Command line arguments
+* <code>process.argv[index of array]</code>
