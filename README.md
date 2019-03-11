@@ -7,6 +7,7 @@
 * Require Third Party modules (NPM)
 <br> ```validator()```
 <br>Validate String
+* Install the dependency using <code>npm install</code> based on the `package.json`
 ---
 ## Section 2 Add personalized module file
 * Using of ```module.exports```
