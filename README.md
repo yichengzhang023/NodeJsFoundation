@@ -19,6 +19,35 @@
 ><code>npm install nodemon -g</code>
 
 **Nodemon** can display changes when the file was saved.
+
 ---
-##Section 4 Command line arguments
+## Section 4 Command line arguments
 * <code>process.argv[index of array]</code>
+ ```javascript
+const command = process.argv[2]
+switch(command)
+{
+case 'add':
+console.log('Adding notes!');break;
+case 'remove':
+console.log('Removing notes!');break;
+default:
+console.log('Wrong command!');break;
+}
+```
+* Using Package yargs:
+
+
+ ```javascript
+const yargs = require('yargs')
+yargs.command({
+    command: 'add',
+    describe: 'Add a new note',
+    handler: function () {
+        console.log('Adding a new note!')
+    }
+})
+///...
+console.log(yargs.argv)
+```
+
