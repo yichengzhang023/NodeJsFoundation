@@ -1,1 +1,0 @@
-console.log(validator.isURL('www.6723672.com'))
