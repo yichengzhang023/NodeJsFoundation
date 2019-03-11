@@ -12,3 +12,10 @@
 ## Section 2 Add personalized module file
 * Using of ```module.exports```
 <br>Define personalized functions, export the module with return value.
+---
+## Section 3 Chalk module & global installation
+* Using of ```chalk.styles```
+<br>Define the customized styles for the terminal display.
+><code>npm install nodemon -g</code>
+
+<p>Nodemon can display changes when the file was saved.
