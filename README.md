@@ -43,11 +43,24 @@ const yargs = require('yargs')
 yargs.command({
     command: 'add',
     describe: 'Add a new note',
+    builder: {argument: propety},
     handler: function () {
         console.log('Adding a new note!')
     }
+    
 })
 ///...
 console.log(yargs.argv)
 ```
+## Section 5 Add/remove objects, save to JSON file
 
+* Using of ```JSON.stringfy(object)```
+<br>Transfer object to string data.
+* ```JSON.parse(string)```
+<br>Parse string to JSON data
+* ```fileBuffer.toString()```
+<br>read JSON file, transfer to string.
+
+* Javascript array function: `array.filter(callback)`
+<br> Return a new array using sepcify function to filter
+---
