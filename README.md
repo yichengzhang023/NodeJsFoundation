@@ -64,3 +64,16 @@ console.log(yargs.argv)
 * Javascript array function: `array.filter(callback)`
 <br> Return a new array using sepcify function to filter
 ---
+## Section 6 Arrow functions
+
+* Origin version:
+```javascript
+const duplicateNotes = notes.filter(function(notes){
+        return notes.title === title})
+```
+* Modified version:
+```javascript
+    const duplicateNotes = notes.filter((notes)=> notes.title === title)
+```
+
+* `(argurements) => funciton()`
