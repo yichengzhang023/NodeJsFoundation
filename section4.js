@@ -1,14 +1,14 @@
-const command = process.argv[2]
+// const command = process.argv[2]
 
-switch(command)
-{
-case 'add':
-console.log('Adding notes!');break;
-case 'remove':
-console.log('Removing notes!');break;
-default:
-break;
-}
+// switch(command)
+// {
+// case 'add':
+// console.log('Adding notes!');break;
+// case 'remove':
+// console.log('Removing notes!');break;
+// default:
+// break;
+// }
 
 const chalk = require('chalk')
 const yargs = require('yargs')
