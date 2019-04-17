@@ -1,0 +1,14 @@
+div{
+    width: 100%;
+    text-align: center;
+}
+/* block 居中 */
+div{
+    width: 200px;
+    margin: 0 auto;
+}
+
+div{
+    display: flex;
+    height: 100vh;
+}
